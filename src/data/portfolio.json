@@ -1,0 +1,76 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/one.jpeg",
+      "title": "Munimji (Expense Tracker)",
+      "description": "React JS, CSS, HTML, JavaScript, TypeScript",
+      "url": "https://github.com/DhananjayGoyalGL/DhananjayGoyal_ReactJS_Lab"
+    },
+    {
+      "cover": "/portfolio/movies.png",
+      "title": "Movies on the tip",
+      "description": "TypeScript, HTML, CSS, React JS",
+      "url": "https://github.com/DhananjayGoyalGL/G3A1_ReactJS_GradedProject4"
+    },
+    {
+      "cover": "/portfolio/shop.png",
+      "title": "Shopping Cart",
+      "description": "React JS, HTML, CSS, JavaScript",
+      "url": "https://github.com/DhananjayGoyalGL/ReactJS_ShoppingCart"
+    },
+    {
+      "cover": "/portfolio/employee.png",
+      "title": "Employee Management System",
+      "description": "HTML, Java (Performs CRUD operations)",
+      "url": "https://github.com/DhananjayGoyalGL/DhananjayGoyal_BED_Lab5"
+    },
+    {
+      "cover": "/portfolio/tickettrack.png",
+      "title": "Ticket Tracker App",
+      "description": "Java, HTML, CRUD",
+      "url": "https://github.com/DhananjayGoyalGL/G4B6_bed_GRADEDPROJECT3"
+    },
+    {
+      "cover": "/portfolio/quiz.jpg",
+      "title": "Quiz App",
+      "description": "HTML, CSS, JavaScript",
+      "url": "https://github.com/DhananjayGoyalGL/DhananjayGoyal_JS_Lab2"
+    },
+    {
+      "cover": "/portfolio/dsa.png",
+      "title": "Multiple DSA operations",
+      "description": "Palindrome, Star pattern, Fibonacci, Prime Number (Java)",
+      "url": "https://github.com/DhananjayGoyalGL/MutipleDSAoperations"
+    },
+    {
+      "cover": "/portfolio/resume.png",
+      "title": "Resume Template Filter",
+      "description": "React JS, HTML, CSS, JavaScript",
+      "url": "https://github.com/DhananjayGoyalGL/G3A1_JS_GradedProject2"
+    },
+    {
+      "cover": "/portfolio/pharmacy.png",
+      "title": "Pharmacy Webpage",
+      "description": "HTML, CSS",
+      "url": "https://github.com/DhananjayGoyalGL/G3A1_HTML-CSS_GradedProject1"
+    },
+    {
+      "cover": "/portfolio/todo.png",
+      "title": "Todo App",
+      "description": "CRUD operations, HTML, CSS, JavaScript",
+      "url": "https://github.com/DhananjayGoyalGL/G3A1_HTML-CSS_GradedProject1"
+    },
+    {
+      "cover": "/portfolio/weatherapp.webp",
+      "title": "Weather Forecast App",
+      "description": "OpenWeatherMap, API, HTML, CSS, JavaScript",
+      "url": "https://github.com/DhananjayGoyalGL/DhananjayGoyal_JS3_Lab"
+    },
+    {
+      "cover": "/portfolio/workassign.png",
+      "title": "Work Assigner",
+      "description": "4 departments --> i) Super ii) Admin iii) Hr iv) Tech",
+      "url": "https://github.com/DhananjayGoyalGL/DhananjayGoyal_ACPIFSDAUG22G4_GradedProject1"
+    }
+  ]
+}
