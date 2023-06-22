@@ -1,3 +1,17 @@
+A Portfolio created with the help of React JS, SCSS, HTML, JavaScript & CSS.
+✔️ SVG animation using GSAP and React.
 
-https://dhananjay-portfolio-ten.vercel.app/
-![Uploading d2c350e3-291d-4e79-aaf5-89d2ed979f24.png…]()
+✔️ Animate letters on hover using Animate.css.
+
+✔️ Page loading animation using React-Loaders.
+
+✔️ Add Pacman animation in React.
+
+✔️ Custom 3D CSS animations.
+
+✔️ Font icons in React.
+
+✔️ Create and implement contact form in React using EmailJS.
+
+
+Link: https://dhananjay-portfolio-ten.vercel.app/
