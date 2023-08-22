@@ -1,4 +1,4 @@
-Dhananjay Goyal' s Portfolio: https://dhananjay-portfolio-ten.vercel.app/
+Dhananjay Goyal' s Portfolio: https://aquamarine-hotteok-af3024.netlify.app/
 
 A Portfolio created with the help of React JS, SCSS, HTML, JavaScript & CSS.
 
