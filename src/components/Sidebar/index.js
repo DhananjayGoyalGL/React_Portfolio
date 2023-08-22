@@ -120,7 +120,7 @@ return (
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://leetcode.com/coder_dhananjay/"
+          href="https://leetcode.com/Dhananjay_Goyal/"
         >
           <FontAwesomeIcon
             icon={faLaptopCode}
