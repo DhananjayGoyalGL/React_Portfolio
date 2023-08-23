@@ -21,6 +21,14 @@ const About = () => {
     }, 3000)
   })
 
+  // Function to handle resume download
+  const handleDownloadResume = () => {
+    const link = document.createElement('a')
+    link.href = '../Dhananjay_Goyal_Resume_Dev.pdf'
+    link.download = 'Dhananjay_Goyal_Resume_Dev.pdf'
+    link.click()
+  }
+
   return (
     <>
       {' '}
@@ -33,21 +41,25 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
+          <p className="para">
             A highly motivated Full Stack Developer certified by 𝐈𝐈𝐓 - 𝐑𝐨𝐨𝐫𝐤𝐞𝐞.
             I'm excited to apply my learnt skills in developing responsive and
             intuitive interfaces using SPA (Single Page Application) and React
             JS.
           </p>
-          <p>
+          <p className="para">
             I love building responsive and user-friendly web applications using
             𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬 𝐬𝐮𝐜𝐡 𝐚𝐬 : HTML, CSS, JavaScript, React JS
           </p>
-          <p>
+          <p className="para">
             𝐜𝐨𝐮𝐩𝐥𝐞𝐝 𝐰𝐢𝐭𝐡 𝐁𝐚𝐜𝐤𝐞𝐧𝐝 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬 𝐬𝐮𝐜𝐡 𝐚𝐬 : Spring, Hibernate, JPA,
             Bootstrap, and MySQL.
           </p>
+          <button className="download-button" onClick={handleDownloadResume}>
+            Download Resume
+          </button>
         </div>
+
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
