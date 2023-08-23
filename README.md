@@ -12,8 +12,6 @@ A Portfolio created with the help of React JS, SCSS, HTML, JavaScript & CSS.
 
 ✔️ Custom 3D CSS animations.
 
-✔️ Font icons in React.
+✔️ Font icons in React.js.
 
 ✔️ Create and implement contact form in React using EmailJS.
-
-
