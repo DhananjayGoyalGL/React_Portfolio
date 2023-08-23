@@ -21,123 +21,123 @@ import { useState } from 'react'
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
 
+  return (
+    <div className="nav-bar">
+      <Link className="logo" to="/" onClick={() => setShowNav(true)}>
+        <img src={LogoS} alt="logo" />
+        <div className="sde">
+          D <br />E
+        </div>
+      </Link>
+      <nav className={showNav ? 'mobile-show' : ''}>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          to="/"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="about-link"
+          to="/about"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+        </NavLink>
 
-return (
-  <div className="nav-bar">
-    <Link className="logo" to="/" onClick={() => setShowNav(false)}>
-      <img src={LogoS} alt="logo" />
-      <div className="sde">
-        D <br />E
-      </div>
-    </Link>
-    <nav className={showNav ? 'mobile-show' : ''}>
-      <NavLink
-        exact="true"
-        activeclassname="active"
-        to="/"
-        onClick={() => setShowNav(false)}
-      >
-        <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
-      </NavLink>
-      <NavLink
-        exact="true"
-        activeclassname="active"
-        className="about-link"
-        to="/about"
-        onClick={() => setShowNav(false)}
-      >
-        <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
-      </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="portfolio-link"
+          to="/portfolio"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+        </NavLink>
 
-      <NavLink
-        exact="true"
-        activeclassname="active"
-        className="portfolio-link"
-        to="/portfolio"
-        onClick={() => setShowNav(false)}
-      >
-        <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
-      </NavLink>
+        <NavLink
+          onClick={() => setShowNav(false)}
+          exact="true"
+          activeclassname="active"
+          className="contact-link"
+          to="/contact"
+        >
+          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+        </NavLink>
 
-      <NavLink
-        onClick={() => setShowNav(false)}
-        exact="true"
-        activeclassname="active"
-        className="contact-link"
-        to="/contact"
-      >
-        <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
-      </NavLink>
+        <FontAwesomeIcon
+          onClick={() => setShowNav(false)}
+          icon={faClose}
+          color="#ffd700"
+          size="3x"
+          className="close-icon"
+        />
+      </nav>
+      <ul>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/dhananjaygoyal/"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              color="#4d4d4e"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/DhananjayGoyalGL"
+          >
+            <FontAwesomeIcon
+              icon={faGithub}
+              color="#4d4d4e"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://eportfolio.mygreatlearning.com/dhananjay-goyal"
+          >
+            <FontAwesomeIcon
+              icon={faGoogle}
+              color="#4d4d4e"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://leetcode.com/Dhananjay_Goyal/"
+          >
+            <FontAwesomeIcon
+              icon={faLaptopCode}
+              color="#4d4d4e"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+      </ul>
       <FontAwesomeIcon
-        onClick={() => setShowNav(false)}
-        icon={faClose}
+        onClick={() => setShowNav(true)}
+        icon={faBars}
         color="#ffd700"
         size="3x"
-        className="close-icon"
+        className="hamburger-icon"
       />
-    </nav>
-    <ul>
-      <li>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.linkedin.com/in/dhananjaygoyal/"
-        >
-          <FontAwesomeIcon
-            icon={faLinkedin}
-            color="#4d4d4e"
-            className="anchor-icon"
-          />
-        </a>
-      </li>
-      <li>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/DhananjayGoyalGL"
-        >
-          <FontAwesomeIcon
-            icon={faGithub}
-            color="#4d4d4e"
-            className="anchor-icon"
-          />
-        </a>
-      </li>
-      <li>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://eportfolio.mygreatlearning.com/dhananjay-goyal"
-        >
-          <FontAwesomeIcon
-            icon={faGoogle}
-            color="#4d4d4e"
-            className="anchor-icon"
-          />
-        </a>
-      </li>
-      <li>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://leetcode.com/Dhananjay_Goyal/"
-        >
-          <FontAwesomeIcon
-            icon={faLaptopCode}
-            color="#4d4d4e"
-            className="anchor-icon"
-          />
-        </a>
-      </li>
-    </ul>
-    <FontAwesomeIcon
-      onClick={() => setShowNav(true)}
-      icon={faBars}
-      color="#ffd700"
-      size="3x"
-      className="hamburger-icon"
-    />
-  </div>
-)
+    </div>
+  )
 }
 export default Sidebar
