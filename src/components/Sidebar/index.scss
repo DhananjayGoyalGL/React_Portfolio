@@ -1,11 +1,18 @@
 .nav-bar {
-  background: #181818;
+  background: #061141;
   width: 60px;
   height: 100%;
   position: absolute;
   top: 0;
   z-index: 3;
   min-height: 500px;
+
+  .sde {
+    font-size: 2rem;
+    width: 50px;
+    color: #ffd700;
+    margin-left: 2.5rem;
+  }
 
   .logo {
     display: block;
@@ -149,18 +156,14 @@
     }
 
     nav {
-      display: block;
       width: 100%;
+      height: 100%;
       top: 0;
       left: 0;
       background: #181818;
-      height: 100%;
+      position: fixed;
       margin: 0;
       z-index: 2;
-
-      &.mobile-show {
-        display: block;
-      }
 
       a {
         display: flex;
@@ -178,14 +181,18 @@
       a svg {
         opacity: 1 !important;
       }
+
+      &.mobile-show {
+        display: block;
+      }
     }
 
     .hamburger-icon,
     .close-icon {
+      display: block;
       position: absolute;
       top: 15px;
       right: 15px;
-      display: block;
     }
   }
 }
