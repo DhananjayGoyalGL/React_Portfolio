@@ -24,8 +24,8 @@ const About = () => {
   // Function to handle resume download
   const handleDownloadResume = () => {
     const link = document.createElement('a')
-    link.href = '../Dhananjay_Goyal_Resume_Dev.pdf'
-    link.download = 'Dhananjay_Goyal_Resume_Dev.pdf'
+    link.href = '../DhananjayFullStack.pdf'
+    link.download = 'DhananjayFullStack.pdf'
     link.click()
   }
 
