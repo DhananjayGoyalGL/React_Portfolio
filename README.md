@@ -1,4 +1,4 @@
-Portfolio: [Portfolio](https://aquamarine-hotteok-af3024.netlify.app/)
+[Portfolio💫](https://aquamarine-hotteok-af3024.netlify.app/)
 
 A Portfolio created with the help of React JS, SCSS, HTML, JavaScript & CSS.
 
